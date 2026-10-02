@@ -1,0 +1,16 @@
+{
+  "name": "pi-simple-notify",
+  "version": "0.1.0",
+  "description": "Desktop notifications for pi without OS notification services - self-hosted WPF popup, born for Windows 10 LTSC",
+  "keywords": ["pi-package", "pi-extension", "notifications", "windows", "ltsc", "wpf"],
+  "author": "Sakyvo <unfairsakovo@gmail.com>",
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/Sakyvo/pi-simple-notify.git" },
+  "homepage": "https://github.com/Sakyvo/pi-simple-notify#readme",
+  "bugs": "https://github.com/Sakyvo/pi-simple-notify/issues",
+  "files": ["extensions"],
+  "pi": { "extensions": ["./extensions/index.ts"] },
+  "dependencies": { "koffi": "^3.1.4" },
+  "peerDependencies": { "@earendil-works/pi-coding-agent": "*" },
+  "engines": { "node": ">=18" }
+}
